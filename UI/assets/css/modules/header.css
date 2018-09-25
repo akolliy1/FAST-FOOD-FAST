@@ -1,0 +1,12 @@
+/* full Navbar width */
+#header {
+    grid-area: header;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(128, 128, 128, 0.1);
+    padding: 8px;
+    height: 60px;
+    box-sizing: border-box
+}
