@@ -1,4 +1,5 @@
 @import url('./modules/header.css');
+@import url('./modules/background.css');
 /* Control default browser behavior */
 button, hr, body, html, div, h1, h2, h3, h4, h5, h6, section, form, a, img, footer, ul, li, p, nav, input {
     padding: 0;
