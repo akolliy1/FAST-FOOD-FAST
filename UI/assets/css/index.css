@@ -1,0 +1,78 @@
+/* parent container */
+.container {
+    grid-template-areas: 'header header'
+                    'hero hero'
+                    'main main';
+}
+
+/* #NOTE         ################/
+/* for hero background check modules folder background css */
+/* ######### ####################*/
+
+/* services section stlye */
+#services {
+    grid-area: main;
+    justify-content: center !important;
+    align-items: center;
+    padding-top: 20px;
+}
+#services h4 { 
+    font: bold 28px "Open Sans", sans-serif;
+    text-transform: capitalize;
+    color: rgb(34, 211, 34);
+}
+ul {
+    justify-content: center !important
+}
+#services li {
+    cursor: pointer;
+    transition: transform 234ms ease
+}
+#services li .card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 1.2px 10px gray;
+}
+
+/* ##### #############################*/
+/* form section */
+/* ####### ##########################*/
+
+/* Display form above all element and animate in */
+.form {
+    z-index: 150;
+    background: rgba(250,234,229, 1);
+    animation: transform 350ms forwards 5ms;
+}
+@keyframes transform {
+    0% {
+        margin-top: -100%;
+    }
+    100% {
+        margin-top: 10%;
+    }
+}
+/* adjust form to center and show it above all object */
+.adjust {
+    margin-top: 10%;
+}
+label::after {
+    content: ' *';
+    color: red;
+}
+/* to cancel the modal */
+#back {
+    cursor: pointer;
+}
+#page-title div h4{
+    float: left;
+}
+#page-title div span{
+    float: right;
+}
+#page-title div h4{
+    float: left;
+}
+#page-title div{
+    padding: 0 10%;
+    clear: both;
+}
