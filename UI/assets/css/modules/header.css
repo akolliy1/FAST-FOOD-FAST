@@ -13,11 +13,22 @@
 #title {
     float: left;
 }
+/* General style for Navbar title and Navbar links */
+#title a, #nav-links a {
+    padding: 10px;
+    color: black
+}
 #title a {
     font-size: 20px;
     font-weight: 800;
     text-transform: capitalize;
     font-style: italic;
-    padding: 10px;
-    color: black
+}
+/* UpperCase Navbar links */
+#nav-links a{
+    text-transform: uppercase;
+}
+/* Change the Navbar link color on mouse-over */
+#nav-links a:hover{
+    color: rgb(49, 180, 49);
 }
